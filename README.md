@@ -14,6 +14,8 @@ Well this extension will remind you to do that everytime you open a new tab.
 
 ![3](./assets/3.png)
 
+Once you reopen the tab:
+
 ![4](./assets/4.png)
 
 Bonus: Write something to motivate you so when you open some website you shouldn't open it will popup the message
