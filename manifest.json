@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Website Reminders",
+    "version": "1.0",
+    "description": "Add and view reminders specific to each website",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "tabs",
+      "scripting"
+    ],
+    "host_permissions": ["*://*/*"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "128": "images/icon.png"
+      }
+    },
+    "background": {
+      "service_worker": "reminder-injector.js"
+    },
+    "icons": {
+        "128": "images/icon.png"
+    }
+  }
